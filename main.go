@@ -216,8 +216,5 @@ func main() {
 	}
 	for _, videoURL := range args {
 		download(strings.TrimSpace(videoURL), config.ChunkSizeMB)
-	}
-	
-	
-	
+	}	
 }
